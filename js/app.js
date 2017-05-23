@@ -84,6 +84,26 @@ var quotes = ["It's a funny thing about comin' home. Looks the same, smells the 
 
 
 
+function randomQuote(){
+
+	document.getElementById("displayQuotes").innerHTML = quotes[Math.floor(Math.random() * 4)];
+}
+
+document.getElementById("random").addEventListener("click", randomQuote);
+
+
 //9. Unlock the Secret to Financial Freedom
-/*Create an event listener that will show and hide the message when clickig on the button.
+/*Create an event listener that will show and hide the message when clicking on the button.
 */
+document.getElementById("showHide").addEventListener("click", toggle);
+
+function toggle(){
+	var pElem3 = document.getElementById("showmoney");
+	if (pElem3.style.display==="none"){
+		pElem3.style.display = "block";
+	}else{pElem3.style.display = "none";}
+}
+
+
+
+
