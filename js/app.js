@@ -66,6 +66,16 @@ function showPrice(){
 
 var myQuote = "Our lives are defined by opportunities; even the ones we miss.";
 
+//var buttonElem = document.getElementById("Benjamin");
+//buttonElem.addEventListener("click", showQuote);
+document.getElementById("Benjamin").addEventListener("click", showQuote);
+
+function showQuote(){
+	pElem1 = document.getElementById("displayQuote");
+	pElem1.innerHTML = myQuote;
+}
+
+
 
 //8. Say It again, Randomly
 /*Create a function that will generate a random quote from the variable below after clicking on the button.*/
