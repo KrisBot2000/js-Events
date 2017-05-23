@@ -47,6 +47,11 @@ function valueMenu(){
 //5. Gin.
 /*Create a function named redFace that will change the paragraph text to red and a font size of 20px after clicking on the text.*/
 
+function redFace(){
+	var redElem = document.getElementById("drink");
+	redElem.style.fontSize = "20px";
+	redElem.style.color = "red";
+}
 
 //6. Peanut Butter Cup Oreos
 /*Create a function `showPrice` that will add the price of `$5.55` inside the paragraph with the id `price` after hovering your mouse over the paragraph.*/
