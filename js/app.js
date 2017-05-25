@@ -22,6 +22,8 @@ function lessContent(){
 	
 	var lessElem = document.getElementById("less");
 	lessElem.innerHTML = "";
+//less.innterHTML = "";
+//less.style.display = "none";
 }
 
 //3. Tacocat, The Original Palindrome King
